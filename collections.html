@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="nav-links">
+            <p class="nav-link"><a href="index.html">Home</a></p>
+            <p class="nav-link"><a href="collections.html">Collection</a></p>
+            <p class="nav-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="opennav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="side-navbar" onclick="closenav()">
+        <p style="text-align: end;">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-nav-links">
+            <p class="side-nav-link"><a href="index.html">Home</a></p>
+            <p class="side-nav-link"><a href="collections.html">Collection</a></p>
+            <p class="side-nav-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="gallery" id="products">
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/14884660/pexels-photo-14884660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 1">
+                <p>White Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/18421229/pexels-photo-18421229.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 2">
+                <p>Green Frock</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/18585367/pexels-photo-18585367.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 3">
+                <p>Pink Dress</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/12599444/pexels-photo-12599444.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 4">
+                <p>Yellow Casual</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/14846636/pexels-photo-14846636.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 5">
+                <p>Long Gown</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/5325601/pexels-photo-5325601.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 6">
+                <p>Floral Dress</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/14001112/pexels-photo-14001112.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 7">
+                <p>Beige Modern</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/16520490/pexels-photo-16520490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 8">
+                <p>Blue Designer</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/3755700/pexels-photo-3755700.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 9">
+                <p>Simple Kurti</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/18469768/pexels-photo-18469768.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 10">
+                <p>Red Flare</p>
+            </div>
+
+            <div class="products-box">
+                <img src="https://images.pexels.com/photos/7691072/pexels-photo-7691072.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200"
+                    alt="Dress 11">
+                <p>Formal Wear</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <h1>Nostra</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellendus natus pariatur</p>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <p>@ 2023 Nostra.com</p>
+        </div>
+    </div>
+</body>
+<script src="collection.js">
+</script>
+
+</html>
